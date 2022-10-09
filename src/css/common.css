@@ -7,7 +7,7 @@ body {
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
+  background-color: #000000;
   color: #212121;
   line-height: 1.5;
 }
@@ -15,4 +15,53 @@ body {
 img {
   display: block;
   max-width: 100%;
+}
+
+.picker {
+  text-align: center;
+  font-size: 22;
+  border-radius: 5;
+  margin-right: 30px;
+  box-shadow: 2px 4px 4px teal;
+  background-color: #2e5b75;
+  color: #ffffff;
+  padding: 5;
+}
+
+.btn {
+  font-size: 22;
+  box-shadow: 2px 4px 4px teal;
+  border-radius: 5;
+  background-color: #0e4361;
+  padding: 5px;
+  color: #ffffff;
+}
+.btn:disabled {
+  background-color: #656d72;
+  box-shadow: none;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+}
+.field {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 120px;
+  color: #ffffff;
+}
+.field:not(:last-child) {
+  margin-right: 20px;
+}
+
+.value {
+  margin-bottom: 10px;
+  font-size: 80;
+  box-shadow: 2px 4px 4px teal;
+}
+
+.label {
+  font-size: 40;
 }
