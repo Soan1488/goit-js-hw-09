@@ -31,6 +31,7 @@ function onFormSumbit(event) {
         );
       });
   }
+  refs.formEl.reset();
 }
 
 function createPromise(position, delay) {
